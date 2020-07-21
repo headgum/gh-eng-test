@@ -1,4 +1,4 @@
-# Github Engineering Test
+# Headgum Engineering Test
 
 ## Instructions
 
