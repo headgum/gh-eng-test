@@ -1,0 +1,16 @@
+{
+    "name": "hg-eng-test",
+    "version": "0.0.0",
+    "private": true,
+    "engines": {
+        "node": "12.x.x"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "start:es6": "./node_modules/@babel/node/bin/babel-node.js app.es6.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.10.5",
+        "@babel/node": "^7.10.5"
+    }
+}
