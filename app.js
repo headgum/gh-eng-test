@@ -1,3 +1,8 @@
+/*
+ * This code needs a lot of help!
+ * Checkout README.md for more info.
+ */
+
 var SearchBackend = require('./lib/SearchBackend');
 var DatabaseBackend = require('./lib/DatabaseBackend');
 
@@ -5,14 +10,11 @@ var DatabaseBackend = require('./lib/DatabaseBackend');
 var QUERY_STRING = 'funny'
 
 var exampleSearch = function(query) {
-
     console.log("Search results for \"" + query + "\":");
 
     // Perform a search
     SearchBackend.search(query)
         .then(function(resultsArr) {
-            console.log(resultsArr)
-
             var podcastIds = [];
 
             // Build a list of podcast ids for DatabaseBackend.getPodcastsByIds
