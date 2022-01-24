@@ -10,7 +10,7 @@
         "start:es6": "./node_modules/@babel/node/bin/babel-node.js app.es6.js"
     },
     "dependencies": {
-        "@babel/core": "^7.10.5",
-        "@babel/node": "^7.10.5"
+        "@babel/core": "^7.16.12",
+        "@babel/node": "^7.16.8"
     }
 }
